@@ -1,0 +1,12 @@
+{
+  "name": "javascript-spotify",
+  "version": "0.0.1",
+  "description": "Search and add music to your Spotify playlist with api calls",
+  "main": "index.js",
+  "repository": "https://github.com/hamzaseghir/Spotify-app-js.git",
+  "author": "Hamza <hamza.seghir@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.17.0"
+  }
+}
