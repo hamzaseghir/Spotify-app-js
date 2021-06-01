@@ -6,12 +6,15 @@
   "repository": "https://github.com/hamzaseghir/Spotify-app-js.git",
   "license": "MIT",
   "dependencies": {
+    "autoprefixer": "^10.2.6",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "fastify": "^3.17.0",
     "fastify-plugin": "^3.0.0",
+    "postcss": "^8.3.0",
     "querystring": "^0.2.1",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "tailwindcss": "^2.1.2"
   },
   "scripts": {
     "start": "fastify start server.js"
