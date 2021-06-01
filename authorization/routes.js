@@ -31,7 +31,7 @@ var stateKey = 'spotify_auth_state';
     return text;
   };
 
-async function connexion(fastify, options){
+async function routes(fastify, options){
     fastify.get('/', async(req, reply)=> {
         return { hello: 'World'}
     })
@@ -141,4 +141,4 @@ async function connexion(fastify, options){
       });
 }
 
-module.exports = fp(connexion)
+module.exports = fp(routes)

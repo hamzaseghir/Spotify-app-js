@@ -2,7 +2,9 @@ const fastify = require('fastify')({
     logger : true
 });
 
-fastify.register(require('./authorization/script'))
+const routes = require('./authorization/routes');
+
+fastify.register(routes);
 
 fastify.listen(3000, function(err, address){
     if(err){
